@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb.sunil-devops.shop # submit your host
+REDIS_HOST: redis.sunil-devops.shop
+MYSQL_HOST: mysql.sunil-devops.shop
+RABBITMQ_HOST: rabbitmq.sunil-devops.shop
+CATALOGUE_HOST: catalogue.sunil-devops.shop
+USER_HOST: user.sunil-devops.shop
+CART_HOST: cart.sunil-devops.shop
+SHIPPING_HOST: shipping.sunil-devops.shop
+PAYMENT_HOST: payment.sunil-devops.shop
+DISPATCH_HOST: dispatch.sunil-devops.shop

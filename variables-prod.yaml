@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb-prod.sunil-prodops.shop  # submit your host
+REDIS_HOST: redis-prod.sunil-prodops.shop 
+MYSQL_HOST: mysql-prod.sunil-prodops.shop 
+RABBITMQ_HOST: rabbitmq-prod.sunil-prodops.shop 
+CATALOGUE_HOST: catalogue-prod.sunil-prodops.shop 
+USER_HOST: user-prod.sunil-prodops.shop 
+CART_HOST: cart-prod.sunil-prodops.shop 
+SHIPPING_HOST: shipping-prod.sunil-prodops.shop 
+PAYMENT_HOST: payment-prod.sunil-prodops.shop 
+DISPATCH_HOST: dispatch-prod.sunil-prodops.shop 
