@@ -5,8 +5,10 @@
 #     disable_gpg_check: true
 
 - name: install remi release for CentOS 8.5
-  yum:
+  ansible.builtin.dnf:
     name: https://rpms.remirepo.net/enterprise/remi-release-8.5-1.el8.remi.noarch.rpm 
+    state: present
+    disable_gpg_check: true
   
 - name: enable redis
   ansible.builtin.command: dnf module enable redis:remi-6.2 -y
