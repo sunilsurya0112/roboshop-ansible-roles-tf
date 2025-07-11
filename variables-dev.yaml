@@ -2,9 +2,9 @@ MONGODB_HOST: mongodb-dev.sunil-devops.shop  # submit your host
 REDIS_HOST: redis-dev.sunil-devops.shop 
 MYSQL_HOST: mysql-dev.sunil-devops.shop 
 RABBITMQ_HOST: rabbitmq-dev.sunil-devops.shop 
-CATALOGUE_HOST: catalogue-dev.sunil-devops.shop 
-USER_HOST: user-dev.sunil-devops.shop 
-CART_HOST: cart-dev.sunil-devops.shop 
-SHIPPING_HOST: shipping-dev.sunil-devops.shop 
-PAYMENT_HOST: payment-dev.sunil-devops.shop 
-DISPATCH_HOST: dispatch-dev.sunil-devops.shop 
+CATALOGUE_HOST: catalogue.app-dev.sunil-devops.shop 
+USER_HOST: user.app-dev.sunil-devops.shop 
+CART_HOST: cart.app-dev.sunil-devops.shop 
+SHIPPING_HOST: shipping.app-dev.sunil-devops.shop 
+PAYMENT_HOST: payment.app-dev.sunil-devops.shop 
+DISPATCH_HOST: dispatch.app-dev.sunil-devops.shop 
