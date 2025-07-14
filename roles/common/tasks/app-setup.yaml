@@ -14,7 +14,8 @@
 
 - name: "download {{component}} application"
   ansible.builtin.get_url:
-    url: "https://roboshop-builds.s3.amazonaws.com/{{component}}.zip"
+    #url: "https://roboshop-builds.s3.amazonaws.com/{{component}}.zip"
+    url: "https://roboshop-artifacts.s3.amazonaws.com/{{component}}-v3.zip"
     dest: /tmp
 
 - name: "extract {{component}} application"
