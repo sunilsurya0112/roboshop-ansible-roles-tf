@@ -20,6 +20,6 @@
 
 - name: "extract {{component}} application"
   ansible.builtin.unarchive:
-    src: "/tmp/{{component}}.zip"
+    src: "/tmp/{{component}}-v3.zip"
     dest: /app
     remote_src: yes
