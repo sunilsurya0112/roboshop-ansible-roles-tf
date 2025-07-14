@@ -16,14 +16,14 @@
   ansible.builtin.get_url:
     url: "https://roboshop-artifacts.s3.amazonaws.com/{{component}}-v3.zip"
     dest: /tmp
-    when: component in ['shipping', 'cart']  # keep double quotes
+    when: component in ['shipping', 'cart', 'payment', 'catalogue']  # keep double quotes
 
 - name: "extract {{component}} application"
   ansible.builtin.unarchive:
     src: "/tmp/{{component}}-v3.zip"
     dest: /app
     remote_src: yes
-    when: component in ['shipping', 'cart']
+    when: component in ['shipping', 'cart', 'payment', 'catalogue'] 
 
 - name: "download {{component}} application"
   ansible.builtin.get_url:
