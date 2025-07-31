@@ -8,3 +8,5 @@ CART_HOST: cart.app-dev.sunil-devops.shop
 SHIPPING_HOST: shipping.app-dev.sunil-devops.shop 
 PAYMENT_HOST: payment.app-dev.sunil-devops.shop 
 DISPATCH_HOST: dispatch.app-dev.sunil-devops.shop 
+NEXUS_URL: http://172.31.83.5:8081/repository
+group_id: "com/roboshop"
